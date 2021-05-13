@@ -9,7 +9,7 @@ class CountdownTimer {
     this.clockFace = document.querySelector(selector);
     this.targetDate = targetDate.getTime();
 
-    this.init();
+    this.start();
   }
 
   init() {
